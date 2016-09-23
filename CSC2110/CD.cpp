@@ -68,7 +68,7 @@ CD::~CD()
 
 String* CD::getKey()
 {
-   return title;
+   return artist; // Changed to sort by artist due to Program 1 requirements
 }
 
 void CD::addSong(String* title, String* length)

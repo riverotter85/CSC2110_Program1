@@ -2,7 +2,7 @@
 cls
 
 set THE_PATH=%1:
-set path=%THE_PATH%\MinGW\bin;%THE_PATH%\MinGW\msys\1.0\bin;c:\Windows
+::set path=%THE_PATH%\MinGW\bin;%THE_PATH%\MinGW\msys\1.0\bin;c:\Windows
 
 g++ -c String.cpp
 g++ -c Tokens.cpp
